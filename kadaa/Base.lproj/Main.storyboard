@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bGg-M4-Per">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bGg-M4-Per">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -36,8 +36,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="HU6-NX-1z6"/>
                     <connections>
-                        <outlet property="redLabel" destination="3UZ-1e-oXm" id="Je0-6O-suB"/>
-                        <outlet property="redSlider" destination="KGy-8J-al6" id="PCk-qB-NeB"/>
+                        <outlet property="label" destination="3UZ-1e-oXm" id="hPy-XT-8jd"/>
+                        <outlet property="slider" destination="KGy-8J-al6" id="siG-bs-OGM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -47,7 +47,7 @@
         <!--Item-->
         <scene sceneID="zvE-Dp-SPH">
             <objects>
-                <viewController id="sSX-tU-5Me" customClass="greenViewController" customModule="kadaa" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sSX-tU-5Me" customClass="GreenViewController" customModule="kadaa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zum-zf-fKZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,8 +72,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="yFh-FV-pDj"/>
                     <connections>
-                        <outlet property="greenLabel" destination="8Rn-XJ-hcK" id="5q1-dn-eWB"/>
-                        <outlet property="greenSlider" destination="6vS-Pc-kuw" id="ZPv-LA-f84"/>
+                        <outlet property="label" destination="8Rn-XJ-hcK" id="NIK-1L-oBV"/>
+                        <outlet property="slider" destination="6vS-Pc-kuw" id="9aw-bt-RLu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZXA-NB-Ulo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

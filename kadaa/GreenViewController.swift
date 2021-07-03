@@ -1,5 +1,5 @@
 //
-//  greenViewController.swift
+//  GreenViewController.swift
 //  kadaa
 //
 //  Created by 小竹啓太 on 2021/07/03.
@@ -7,19 +7,19 @@
 
 import UIKit
 
-class greenViewController: UIViewController {
+class GreenViewController: UIViewController {
     
-    @IBOutlet  private weak var greenLabel: UILabel!
-    @IBOutlet  private weak var greenSlider: UISlider!
+    @IBOutlet  private weak var label: UILabel!
+    @IBOutlet  private weak var slider: UISlider!
     private let delegate = UIApplication.shared.delegate as! AppDelegate
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        greenLabel.text = String(delegate.value)
-        greenSlider.value = delegate.value
+        label.text = String(delegate.value)
+        slider.value = delegate.value
     }
     @IBAction func sliderAction(_ sender: UISlider) {
         delegate.value = sender.value
-        greenLabel.text = String(delegate.value)
+        label.text = String(delegate.value)
     }
 }
