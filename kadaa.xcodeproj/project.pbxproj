@@ -13,7 +13,7 @@
 		A7A0D10C268FCCA400072B22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A0D10A268FCCA400072B22 /* Main.storyboard */; };
 		A7A0D10E268FCCA500072B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A0D10D268FCCA500072B22 /* Assets.xcassets */; };
 		A7A0D111268FCCA500072B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A0D10F268FCCA500072B22 /* LaunchScreen.storyboard */; };
-		A7A0D11A268FCE2900072B22 /* greenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A0D119268FCE2900072B22 /* greenViewController.swift */; };
+		A7A0D11A268FCE2900072B22 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A0D119268FCE2900072B22 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		A7A0D10D268FCCA500072B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7A0D110268FCCA500072B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7A0D112268FCCA500072B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7A0D119268FCE2900072B22 /* greenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenViewController.swift; sourceTree = "<group>"; };
+		A7A0D119268FCE2900072B22 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				A7A0D104268FCCA400072B22 /* AppDelegate.swift */,
 				A7A0D106268FCCA400072B22 /* SceneDelegate.swift */,
 				A7A0D108268FCCA400072B22 /* ViewController.swift */,
-				A7A0D119268FCE2900072B22 /* greenViewController.swift */,
+				A7A0D119268FCE2900072B22 /* GreenViewController.swift */,
 				A7A0D10A268FCCA400072B22 /* Main.storyboard */,
 				A7A0D10D268FCCA500072B22 /* Assets.xcassets */,
 				A7A0D10F268FCCA500072B22 /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A0D11A268FCE2900072B22 /* greenViewController.swift in Sources */,
+				A7A0D11A268FCE2900072B22 /* GreenViewController.swift in Sources */,
 				A7A0D109268FCCA400072B22 /* ViewController.swift in Sources */,
 				A7A0D105268FCCA400072B22 /* AppDelegate.swift in Sources */,
 				A7A0D107268FCCA400072B22 /* SceneDelegate.swift in Sources */,

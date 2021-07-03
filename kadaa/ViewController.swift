@@ -10,17 +10,17 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet private weak var redLabel: UILabel!
-    @IBOutlet private weak var redSlider: UISlider!
+    @IBOutlet private weak var label: UILabel!
+    @IBOutlet private weak var slider: UISlider!
     private let delegate = UIApplication.shared.delegate as! AppDelegate
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        redLabel.text = String(delegate.value)
-        redSlider.value = delegate.value
+        label.text = String(delegate.value)
+        slider.value = delegate.value
     }
     @IBAction func sliderAction(_ sender: UISlider) {
-        delegate.value = redSlider.value
-        redLabel.text = String(delegate.value)
+        delegate.value = sender.value
+        label.text = String(delegate.value)
     }
 }
